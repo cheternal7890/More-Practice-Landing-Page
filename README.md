@@ -1,0 +1,1 @@
+Honing in on my HTML and CSS skills. This project focuses on building elements, building headers, and building sections (particularly the margins and padding of each section) that are responsive when you zoom in our out.
