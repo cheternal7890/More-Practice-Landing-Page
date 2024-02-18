@@ -120,9 +120,9 @@
   justify-content: space-between;
 }
 
+
 .rightSideColumn {
   width: 50%;
-
   div {
     margin-bottom: 24px;
   }
@@ -168,12 +168,6 @@
   }
 }
 
-@media (max-width: 576px) {
-  .imageCards {
-    flex: 1 0 100%;
-  }
-}
-
 /* Buttons */
 
 .buttonContainer {
@@ -185,8 +179,8 @@
 
 .leftButton a,
 .rightButton a {
-  padding: 25px 250px;
   font-size: 26px;
+  padding: 25px 125px;
   background-color: #000000;
   border-style: solid;
   border-width: 1px;
