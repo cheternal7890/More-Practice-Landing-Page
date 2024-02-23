@@ -1,4 +1,4 @@
-l<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -196,6 +196,84 @@ l<!DOCTYPE html>
         </section>
       </section>
 
+      <section class="section">
+        <hr />
+        <div class="contactWrap">
+          <form class="contactForm">
+            <div class="contactInputCol">
+              <div class="contactInputWrap">
+                <label id="name">
+                  <span class="contactLabelText">Name</span>
+                  <input
+                    autocomplete="false"
+                    class="contactInput"
+                    name="firstname"
+                    placeholder=""
+                    tabindex="0"
+                  />
+                </label>
+              </div>
+              <div class="contactInputWrap">
+                <label id="email">
+                  <span class="contactLabelText">Email</span>
+                  <input
+                    autocomplete="off"
+                    type="email"
+                    class="contactInput"
+                    name="email"
+                    placeholder=""
+                    tabindex="0"
+                    required
+                  />
+                </label>
+              </div>
+              <div class="contactInputWrap">
+                <label id="companyName">
+                  <span class="contactLabelText">Company Name</span>
+                  <input
+                    autocomplete="off"
+                    class="contactInput"
+                    name="company"
+                    placeholder=""
+                    tabindex="0"
+                    required
+                  />
+                </label>
+              </div>
+              <div class="contactInputWrap">
+                <label id="referral">
+                  <span class="contactLabelText">How did you find us?</span>
+                  <input
+                    autocomplete="off"
+                    class="contactInput"
+                    name="how_did_you_find_us_"
+                    placeholder=""
+                    tabindex="0"
+                  />
+                </label>
+              </div>
+            </div>
+
+            <div class="contactInputWrap contactInputWrap-textarea">
+              <label id="referral">
+                <span class="contactLabelText">What should we make next?</span>
+                <textarea
+                  autocomplete="off"
+                  rows="3"
+                  class="contactTextArea"
+                  name="message"
+                  placeholder=""
+                  tabindex="0"
+                  required
+                ></textarea>
+              </label>
+            </div>
+
+            <button type="submit" class="contactButton">Contact Us</button>
+          </form>
+        </div>
+      </section>
+
       <footer>
         <section class="section" align="center">
           <p>
@@ -206,7 +284,5 @@ l<!DOCTYPE html>
         </section>
       </footer>
     </main>
-
-    <script src="menuToggle.js"></script>
   </body>
 </html>
