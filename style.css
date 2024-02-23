@@ -85,7 +85,7 @@
 
 .section {
   display: flex;
-  margin-top: 75px;
+  margin-top: 45px;
   flex-direction: column;
   justify-content: space-between;
 
@@ -95,7 +95,7 @@
   max-width: 100%;
 
   div {
-    margin-bottom: 46px;
+    margin-bottom: 26px;
   }
 
   h1 {
@@ -128,9 +128,8 @@
 }
 
 .rightSideColumn {
-  width: 100%;
   div {
-    margin-bottom: 24px;
+    margin-top: 6px;
   }
 }
 
@@ -193,7 +192,7 @@
 
 .buttonNav li a {
   display: inline-block;
-  padding: 20px 245px;
+  padding: 20px 65px;
   flex-wrap: wrap;
   text-decoration: none;
   color: white;
