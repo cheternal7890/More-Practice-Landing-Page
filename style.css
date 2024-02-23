@@ -269,5 +269,6 @@
 
 .contactButton:hover {
   background-color: white;
+  cursor: pointer;
   color: black;
 }
